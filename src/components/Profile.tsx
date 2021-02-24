@@ -1,7 +1,7 @@
 // STATICs
 import styles from "../styles/components/Profile.module.css";
 
-export function Profile() {
+function Profile() {
   return (
     <div className={styles.profileContainer}>
       <img src="https://github.com/eliasallex.png" alt="Elias Alexandre" />

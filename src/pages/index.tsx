@@ -1,10 +1,10 @@
+import React from "react";
 // STATICs
 import styles from "../styles/pages/Home.module.css";
 // COMPONENTs
 import ExperienceBar from "../components/ExperienceBar";
 import Profile from "../components/Profile";
 import CompletedChallenges from "../components/CompletedChallenges";
-import React from "react";
 import Countdown from "../components/Countdown";
 
 import Head from "next/Head";
@@ -19,11 +19,12 @@ export default function Home() {
       <ExperienceBar />
 
       <section>
-        <div className={styles.leftContainer}>
+        <div>
           <Profile />
           <CompletedChallenges />
           <Countdown />
         </div>
+
         <div></div>
       </section>
     </div>

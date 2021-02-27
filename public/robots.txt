@@ -1,0 +1,6 @@
+
+user-agent: *
+
+allow: /
+dissallow: /404
+dissallow: /server
